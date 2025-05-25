@@ -112,3 +112,15 @@ Bookify/
 ---
 
 **`Built with by the Next-Six-Avengers team.`**
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+## Security
+
+For details on reporting security vulnerabilities or issues, please refer to our [SECURITY.md](./SECURITY.md) file.
+
+Thank you for helping us keep Bookify safe and secure!

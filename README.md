@@ -5,7 +5,13 @@
   </a>
 <p>
 
-`Bookify` is a book exchange web app that allows users to easily exchange single or multiple books with others. Users can also message each other before completing an exchange, ensuring a smooth and efficient process.
+<p align="center">
+  Bookify is a book exchange web app that allows users to easily exchange single or multiple books with others. Users can also message each other before completing an exchange, ensuring a smooth and efficient process.
+It also includes AI-generated book summaries to help users explore content before making a decision.
+Users can listen to audiobooks and use voice search to find books quickly and conveniently.
+Each book has a preview feature so users can read a sample before exchanging.
+An admin dashboard allows efficient management of users, books, and exchange requests.
+</p>
 
 <table align="center">
   <tr>
@@ -18,8 +24,8 @@
   </tr>
 </table>
 
-**🔗 Live Site:** [Bookify](https://bookify-mocha.vercel.app)  
-**💻 Backend Repo:** [GitHub - Bookify Backend](https://github.com/your-username/bookify-backend)
+**🔗 Live Site:** [Bookify](https://bookify06.vercel.app)  
+**💻 Backend Repo:** [GitHub - Bookify Backend](https://github.com/Mdafsarx/Bookify-Backend)
 
 ## Main Features
 
@@ -32,19 +38,21 @@
 
 ## Technology Stack
 
-- **Backend**: Node.js, Express, TypeScript
-- **Database**: PostgreSQL, Redis
-- **Frontend**: React, Next.js, Tailwind CSS
-- **Testing**: Jest, Cypress
-- **CI/CD**: GitHub Actions
-- **Monitoring**: DataDog, Sentry
+- **Frontend**: Next.js, Context Api, bcryptjs, Tailwind CSS, Shadcn UI, MUI, Flowbite, Framer Motion. Three.js, swiper.js
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: NextAuth.js
+- **AI Integration**: gemini, Cohere
+- **Styling & Animations**: Tailwind CSS, Framer Motion, AOS, Lottie
+- **HTTP Client**: Axios
+- **State Management & Data Fetching**: TanStack Query
 
 ## To Run Locally
 
 ```bash
 # Clone the repository
 git clone https://github.com/Mdafsarx/Bookify.git
-cd project-name
+cd Bookify
 
 # Install dependencies
 npm install
@@ -92,14 +100,14 @@ Bookify/
 
 ## Team
 
-| Role                            | Name           | GitHub                                           |
-| ------------------------------- | -------------- | ------------------------------------------------ |
-| Fullstack Developer (Team Lead) | MD Afsar      | [@Mdafsarx](https://github.com/Mdafsarx)         |
-| Fullstack Developer             | Sumon Ray    | [@sumon-ray](https://github.com/sumon-ray)     |
-| Frontend Developer              | Ajhar Ahmed | [@Ajhaeahmed3218](https://github.com/Ajhaeahmed3218)           |
-| Frontend Developer              | Naeemul Islam     | [@naeemul-online](https://github.com/aeemul-online)       |
-| Frontend Developer              | Sarfaraj Nawaz    | [@Sarfaraj525](https://github.com/Sarfaraj525)     |
-| Designer                        | Lisa Thompson  | [@emon50666](https://github.com/emon50666) |
+| Role                            | Name           | GitHub                                               |
+| ------------------------------- | -------------- | ---------------------------------------------------- |
+| Fullstack Developer (Team Lead) | MD Afsar       | [@Mdafsarx](https://github.com/Mdafsarx)             |
+| Fullstack Developer             | Sumon Ray      | [@sumon-ray](https://github.com/sumon-ray)           |
+| Frontend Developer              | Ajhar Ahmed    | [@Ajhaeahmed3218](https://github.com/Ajhaeahmed3218) |
+| Frontend Developer              | Naeemul Islam  | [@naeemul-online](https://github.com/aeemul-online)  |
+| Frontend Developer              | Sarfaraj Nawaz | [@Sarfaraj525](https://github.com/Sarfaraj525)       |
+| Designer                        | Lisa Thompson  | [@emon50666](https://github.com/emon50666)           |
 
 ---
 

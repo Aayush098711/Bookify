@@ -47,6 +47,13 @@ An admin dashboard allows efficient management of users, books, and exchange req
 - **HTTP Client**: Axios
 - **State Management & Data Fetching**: TanStack Query
 
+## 🧑‍💻 My Contributions ( Fullstack Developer & Team Lead)
+
+As a Fullstack Developer and Team Lead, I contributed around 50% to the frontend and 70% to the backend of Bookify. I developed core features like book exchange logic, messaging backend, real-time reviews, and related books. Additionally, I managed project architecture, Git workflows, deployment, and led the team using Scrum and Trello for smooth collaboration and delivery.
+
+🔗 [View Contribution Graph](https://github.com/Mdafsarx/Bookify/graphs/contributors)
+
+
 ## To Run Locally
 
 ```bash
@@ -98,7 +105,7 @@ Bookify/
 └── users-page.png        # Users page screenshot/mockup
 ```
 
-## Team
+## 🛠️ Team
 
 | Role                            | Name           | GitHub                                               |
 | ------------------------------- | -------------- | ---------------------------------------------------- |

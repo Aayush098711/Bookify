@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Reporting a Vulnerability
-If you discover a security vulnerability, please report it responsibly by contacting [your-email@example.com].
+If you discover a security vulnerability, please report it responsibly by contacting bookify06@gmail.com.
 
 ## Supported Versions
 This project is actively maintained and security updates will be provided for the latest versions.

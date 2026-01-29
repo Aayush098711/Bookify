@@ -1,133 +1,155 @@
-<br />
-<p align="center">
-  <a href="">
-    <img src="bookify-logo.png" alt="Bookify" width="200" />
-  </a>
-<p>
+# 📚 Bookify - Your Book Exchange Platform
 
-<p align="center">
-  Bookify is a book exchange web app that allows users to easily exchange single or multiple books with others. Users can also message each other before completing an exchange, ensuring a smooth and efficient process.
-It also includes AI-generated book summaries to help users explore content before making a decision.
-Users can listen to audiobooks and use voice search to find books quickly and conveniently.
-Each book has a preview feature so users can read a sample before exchanging.
-An admin dashboard allows efficient management of users, books, and exchange requests.
-</p>
+Welcome to **Bookify**, a web application designed to simplify the process of exchanging books. Whether you want to trade a single book or multiple titles, Bookify makes it easy to connect with fellow book lovers. 
 
-<table align="center">
-  <tr>
-    <td><img src="home-page.png" alt="Bookify - Home Page" width="100%"/></td>
-    <td><img src="exchange-page.png" alt="Bookify - Exchange Page" width="100%"/></td>
-  </tr>
-  <tr>
-    <td><img src="dashboard-page.png" alt="Bookify - Dashboard Page" width="100%"/></td>
-    <td><img src="users-page.png" alt="Bookify - Users Page" width="100%"/></td>
-  </tr>
-</table>
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Bookify-blue)](https://github.com/Aayush098711/Bookify/releases)
 
-**🔗 Live Site:** [Bookify](https://bookify06.vercel.app)  
-**💻 Backend Repo:** [GitHub - Bookify Backend](https://github.com/Mdafsarx/Bookify-Backend)
+## Table of Contents
 
-## Main Features
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- Users can exchange single and multiple books with other people.
-- Chat with book owners to discuss details before exchanging.
-- Instantly AI-generated summaries for a quick overview of books.
-- Voice search to quickly find books using speech.
-- Audiobooks for users who prefer listening to book content.
-- Dynamic reviews and ratings on book detail pages to help users make informed decisions.
+## Features
 
-## Technology Stack
+- **User-Friendly Interface**: Navigate easily through our clean and intuitive design.
+- **Book Listings**: Post your books for exchange and browse through others' listings.
+- **Search Functionality**: Quickly find specific books or genres using our search feature.
+- **User Profiles**: Create a profile to manage your listings and exchanges.
+- **Secure Authentication**: Use secure methods to log in and manage your account.
+- **Real-Time Updates**: Stay informed about new listings and exchanges with live updates.
 
-- **Frontend**: Next.js, Context Api, bcryptjs, Tailwind CSS, Shadcn UI, MUI, Flowbite, Framer Motion. Three.js, swiper.js
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: NextAuth.js
-- **AI Integration**: gemini, Cohere
-- **Styling & Animations**: Tailwind CSS, Framer Motion, AOS, Lottie
-- **HTTP Client**: Axios
-- **State Management & Data Fetching**: TanStack Query
+## Technologies Used
 
-## 🧑‍💻 My Contributions ( Fullstack Developer & Team Lead)
+Bookify is built using a variety of technologies to ensure a seamless user experience. Here are some of the key technologies:
 
-As a Fullstack Developer and Team Lead, I contributed around 50% to the frontend and 70% to the backend of Bookify. I developed core features like book exchange logic, messaging backend, real-time reviews, and related books. Additionally, I managed project architecture, Git workflows, deployment, and led the team using Scrum and Trello for smooth collaboration and delivery.
+- **Next.js**: A powerful React framework for server-side rendering and static site generation.
+- **Node.js**: A JavaScript runtime for building fast and scalable server-side applications.
+- **Express.js**: A minimal and flexible Node.js web application framework.
+- **MongoDB**: A NoSQL database for storing user and book data.
+- **Tailwind CSS**: A utility-first CSS framework for designing responsive layouts.
+- **Axios**: A promise-based HTTP client for making requests to the server.
+- **NextAuth**: Authentication for Next.js applications.
+- **Framer Motion**: A library for creating animations in React.
+- **Lottie React**: A library for rendering animations.
+- **Swiper**: A modern touch slider for mobile and web.
+- **TanStack Query**: For fetching, caching, and updating data in React.
+- **Three.js**: A JavaScript library for 3D graphics.
+- **Shadcn UI**: A collection of UI components for React.
+- **AOS**: Animate on scroll library for adding animations.
+- **Bcrypt.js**: For hashing passwords.
+- **Gemini API**: For additional functionalities.
 
-🔗 [View Contribution Graph](https://github.com/Mdafsarx/Bookify/graphs/contributors)
+## Getting Started
 
+To get started with Bookify, follow these steps:
 
-## To Run Locally
+### Prerequisites
 
-```bash
-# Clone the repository
-git clone https://github.com/Mdafsarx/Bookify.git
-cd Bookify
+Make sure you have the following installed:
 
-# Install dependencies
-npm install
+- Node.js (version 14 or higher)
+- npm or yarn
+- MongoDB
 
-# Set up environment variables
-cp .env.example .env
+### Installation
 
-# Start the development server
-npm run dev
+1. Clone the repository:
 
-# The project will run at http://localhost:3000
+   ```bash
+   git clone https://github.com/Aayush098711/Bookify.git
+   ```
 
-# Folder Structure
+2. Navigate to the project directory:
 
-Bookify/
-├── .vscode/              # VS Code workspace settings and configurations
-├── node_modules/         # Installed npm dependencies and packages
-├── public/               # Static assets served directly by the web server
-├── src/                  # Main source code directory
-│   ├── app/              # Next.js App Router pages and layouts
-│   ├── assets/           # Static assets like images, icons, and media files
-│   ├── Components/       # Reusable React components and UI elements
-│   ├── hooks/            # Custom React hooks for shared logic
-│   ├── lib/              # Utility libraries and helper functions
-│   └── services/         # API services and external integrations
-│   ├── middleware.js     # Express/Next.js middleware functions
-│   └── utils.js          # Common utility functions and helpers
-├── .eslintrc.json        # ESLint configuration for code linting rules
-├── .gitignore            # Specifies files and directories to ignore in Git
-├── bookify-logo.png      # Application logo image asset
-├── components.json       # Component library configuration (shadcn/ui)
-├── dashboard-page.png    # Dashboard page screenshot/mockup
-├── exchange-page.png     # Exchange page screenshot/mockup
-├── home-page.png         # Home page screenshot/mockup
-├── jsconfig.json         # JavaScript project configuration and path mapping
-├── next.config.mjs       # Next.js framework configuration file
-├── package-lock.json     # npm dependency lock file for consistent installs
-├── package.json          # Project metadata, dependencies, and npm scripts
-├── postcss.config.js     # PostCSS configuration for CSS processing
-├── postcss.config.mjs    # PostCSS configuration (ES module format)
-├── README.md             # Project documentation and setup instructions
-├── tailwind.config.js    # Tailwind CSS framework configuration
-└── users-page.png        # Users page screenshot/mockup
-```
+   ```bash
+   cd Bookify
+   ```
 
-## 🛠️ Team
+3. Install the dependencies:
 
-| Role                            | Name           | GitHub                                               |
-| ------------------------------- | -------------- | ---------------------------------------------------- |
-| Fullstack Developer (Team Lead) | MD Afsar       | [@Mdafsarx](https://github.com/Mdafsarx)             |
-| Fullstack Developer             | Sumon Ray      | [@sumon-ray](https://github.com/sumon-ray)           |
-| Frontend Developer              | Ajhar Ahmed    | [@Ajhaeahmed3218](https://github.com/Ajhaeahmed3218) |
-| Frontend Developer              | Naeemul Islam  | [@naeemul-online](https://github.com/aeemul-online)  |
-| Frontend Developer              | Sarfaraj Nawaz | [@Sarfaraj525](https://github.com/Sarfaraj525)       |
-| Designer                        | Lisa Thompson  | [@emon50666](https://github.com/emon50666)           |
+   ```bash
+   npm install
+   ```
 
----
+   or
 
-**`Built with by the Next-Six-Avengers team.`**
+   ```bash
+   yarn install
+   ```
 
----
+4. Set up your environment variables. Create a `.env.local` file in the root directory and add the following:
+
+   ```
+   MONGODB_URI=your_mongodb_uri
+   NEXTAUTH_SECRET=your_nextauth_secret
+   ```
+
+5. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   or
+
+   ```bash
+   yarn dev
+   ```
+
+6. Open your browser and go to `http://localhost:3000`.
+
+## Usage
+
+Once you have the application running, you can start using Bookify:
+
+1. **Create an Account**: Sign up for a new account using the registration form.
+2. **Post Books**: Navigate to the "Post a Book" section to list your books for exchange.
+3. **Browse Listings**: Explore the available books by visiting the "Browse" page.
+4. **Exchange Books**: Initiate an exchange by selecting a book and contacting the user.
+
+You can also view your profile and manage your listings from the dashboard.
+
+## Contributing
+
+We welcome contributions! If you'd like to help improve Bookify, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+
+3. Make your changes and commit them:
+
+   ```bash
+   git commit -m "Add your message here"
+   ```
+
+4. Push to your branch:
+
+   ```bash
+   git push origin feature/YourFeature
+   ```
+
+5. Open a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Security
+## Contact
 
-For details on reporting security vulnerabilities or issues, please refer to our [SECURITY.md](./SECURITY.md) file.
+For any inquiries or feedback, please reach out:
 
-Thank you for helping us keep Bookify safe and secure!
+- **Email**: your-email@example.com
+- **GitHub**: [Aayush098711](https://github.com/Aayush098711)
+
+For more information, visit our [Releases section](https://github.com/Aayush098711/Bookify/releases) to download the latest version of Bookify. 
+
+Happy exchanging! 📖

